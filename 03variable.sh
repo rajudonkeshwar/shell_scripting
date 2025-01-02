@@ -9,3 +9,6 @@ echo "username entered: $USERNAME"
 echo "Please enter your password::"
 
 read -s PASSWORD
+
+echo " your user name is :: $USERNAME "
+echo " Your password is :: $PASSWORD "

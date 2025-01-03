@@ -20,7 +20,7 @@ fi
 
 java -version
 
-if [ $? -e 0 ]
+if [ $? -eq 0 ]
 then # java installed
     dnf remove java -y
     VALIDATE $? "removing java"

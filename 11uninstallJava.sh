@@ -27,14 +27,3 @@ then # java installed
 else
     echo "MySQL is already ... INSTALLED"
 fi
-
-
-dnf list installed git
-
-if [ $? -ne 0 ]
-then
-    dnf install git -y
-    VALIDATE $? "Installing Git"
-else
-    echo "Git is already ... INSTALLED"
-fi

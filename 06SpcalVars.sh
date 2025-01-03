@@ -1,5 +1,10 @@
 #!/bin/bash
 
+VAR1="raju"
+VAR2="ramya"
+
+echo " $VAR1 and $VAR2 "
+
 echo "All variables passed: $@"
 echo "Number of variables: $#"
 echo "Script name: $0"

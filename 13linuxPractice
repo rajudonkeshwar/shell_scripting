@@ -1,4 +1,5 @@
-read -sp " enter username : " user_var
+read -sp " enter username : " user_var # -p flag is used to come in same line
+                                        # 
 echo " user name is : $user_var "
 
 read -sp " enter password : " user_pass

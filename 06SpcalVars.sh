@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VAR1="raju"
-VAR2="ramya"
+VAR1=$1
+VAR2=$2
 
 echo " $VAR1 and $VAR2 "
 

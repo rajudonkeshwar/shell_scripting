@@ -1,2 +1,5 @@
-read -p " enter username : " user_var
+read -sp " enter username : " user_var
 echo " user name is : $user_var "
+
+read -sp " enter password : " user_pass
+echo " password is : $user_pass "

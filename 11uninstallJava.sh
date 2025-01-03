@@ -18,7 +18,7 @@ then
     exit 1 #other than 0
 fi
 
-java -version
+java -v
 
 if [ $? -eq 0 ]
 then # java installed

@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/bin/
+
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m"
+
 SOURCE_DIR=$1
 DEST_DIR=$2
 DAYS=${3:-14} # if user is not providing number of days, we are taking 14 as default

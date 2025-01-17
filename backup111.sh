@@ -22,14 +22,15 @@ USAGE(){
 
 mkdir -p /home/ec2-user/shellscript-logs
 
+echo " $# "
 
 if  [ $# -eq  0]
 
 then
 
  echo -e " please give SOURCE and DESTINATION_DIRECTORIES, NUMBERDAYS as inputrs "
-
  exit 1
+
 fi
 
 

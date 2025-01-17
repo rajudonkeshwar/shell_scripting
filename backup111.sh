@@ -24,7 +24,7 @@ mkdir -p /home/ec2-user/shellscript-logs
 
 echo " $# "
 
-if  [ $# -eq  0];
+if  [ $# -eq  0 ];
 
 then
 

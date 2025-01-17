@@ -22,16 +22,29 @@ USAGE(){
 
 mkdir -p /home/ec2-user/shellscript-logs
 
+
+if [ $# -eq 0]
+then
+ echo -e " please give SOURCE and DESTINATION_DIRECTORIES, NUMBERDAYS as inputrs "
+ exit 1
+fi
+
+
+
 if [ $# -lt 2 -a $# -gt 3 ]
 then
     USAGE
 fi
+
+
 
 if [ ! -d "$SOURCE_DIR" ]
 then
     echo -e "$SOURCE_DIR Does not exist...Please check"
     exit 1
 fi
+
+
 
 if [ ! -d "$DEST_DIR" ]
 then
